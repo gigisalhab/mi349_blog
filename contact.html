@@ -4,4 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Jenna's Journals of Style</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1>Jenna's Journals of Style</h1>
+        <p>From catwalk to sidewalk: a diary of design.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label>
+                Name:
+                <input name="submitted-name" autocomplete="name" />
+            </label>
+        
+            <label>
+                Email:
+                <input email="submitted-email" autocomplete="email" />
+            </label>
+        
+            <label for="contact-select">Reason for Contact:</label>
+            
+            <select id="contact-select">
+                <option value="">--Please choose an option--</option>
+                <option value="Hi">Hi</option>
+                <option value="Looking for a contractor">Looking for a contractor</option>
+                <option value="Interested in an interview">Interested in an interview</option>
+            </select>
+
+            <label for="comment">Comments or questions:</label>
+            <textarea id="comment" name="comment" rows="5" cols="33" placeholder="I'd love to hear from you!"></textarea>
+            <button>Submit</button>
+        </form>
+        
+    </main>

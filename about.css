@@ -1,0 +1,33 @@
+body {
+    background-color: #FFD1DC;
+    font-family: 'Cormorant Garamond', serif;
+    color: #333;
+    line-height: 1.5;
+}
+
+header {
+    font-family: 'Dancing Script', cursive;
+    background-color: #FFB6C1;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #FF69B4;
+}
