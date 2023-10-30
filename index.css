@@ -37,9 +37,46 @@ nav a:hover {
 }
 
 .blog-post img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px double #df5c65;
+    padding: 5px;
+    box-shadow: 5px 5px 15px rgba(104, 23, 203, 0.3);
+    border-radius: 5px;
+    transition: transform 0.2s ease;
 }
+
+.blog-post img:hover {
+    transform: scale(1.05);
+}
+
+h2::before {
+    content: "→ ";
+    padding-right: 10px;
+}
+
+.blog-post h3 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.blog-post h3::after {
+    content: ""; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(45deg, #df5c65, #FFB6C1);
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+
 
 table {
     width: 100%;
@@ -83,12 +120,4 @@ form button:hover {
     background-color: #e59bad;
 }
 
-img {
-    max-width: 100%;
-    height: 100px;
-    border: 10px double #a89f91;
-    padding: 5px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    transition: transform 0.2s ease;
-}
+
