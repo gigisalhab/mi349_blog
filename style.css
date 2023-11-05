@@ -11,6 +11,9 @@ header {
     background-color: #FFB6C1;
     padding: 20px;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -33,25 +36,49 @@ nav a:hover {
     color: #FF69B4;
 }
 
+/* Two-Column Flexbox Layout */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Adjust the width of each column if necessary */
+.column:first-child {
+    flex: 3;
+}
+
+.column:last-child {
+    flex: 2;
+}
+
+/* Left Floated Image with a Caption */
+.float-image {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.float-image img {
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.float-image figcaption {
+    text-align: center;
+}
+
 /* Index Page Styles */
 .blog-post {
     margin-bottom: 20px;
-}
-
-.blog-post img {
-    max-width: 40%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 10px double #df5c65;
-    padding: 5px;
-}
-
-
-h2::before {
-    content: "→ ";
-    padding-right: 10px;
 }
 
 .blog-post h3 {
