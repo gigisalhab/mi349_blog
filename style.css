@@ -1,3 +1,4 @@
+/* Common Styles */
 body {
     background-color: #FFD1DC;
     font-family: 'Cormorant Garamond', serif;
@@ -32,6 +33,7 @@ nav a:hover {
     color: #FF69B4;
 }
 
+/* Index Page Styles */
 .blog-post {
     margin-bottom: 20px;
 }
@@ -76,8 +78,6 @@ h2::before {
     box-shadow: 0 2px 3px rgba(0,0,0,0.1);
 }
 
-
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -99,8 +99,10 @@ td {
     border-bottom: 1px solid #120f0f;
 }
 
-
-form label {
+form label, 
+form select, 
+form textarea,
+form button {
     display: block;
     margin-top: 10px;
     margin-bottom:20px;
@@ -120,4 +122,32 @@ form button:hover {
     background-color: #e59bad;
 }
 
+/* Contact Page Styles */
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
 
+label {
+    margin-bottom: 10px;
+}
+
+/* About Page Styles */
+img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px double #df5c65;
+    padding: 5px;
+    box-shadow: 5px 5px 15px rgba(104, 23, 203, 0.3);
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
