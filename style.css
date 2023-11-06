@@ -10,12 +10,18 @@ body {
 
 header {
     font-family: 'Dancing Script', cursive;
+    font-size: 17px;
     background-color: #FFB6C1;
     padding: 20px;
     text-align: center;
     position: sticky;
     top: 0;
     z-index: 1000;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
 }
 
 nav ul {
@@ -40,6 +46,15 @@ nav ul li a {
     margin-top: 20px;
 }
 
+.main-container h2 {
+    color: #FFFFFF;
+    background-color: #f8a6b2db;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .column {
     flex: 1;
     padding: 20px;
@@ -52,6 +67,7 @@ nav ul li a {
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 
 .blog-post h3 {
     margin-top: 0;
@@ -70,6 +86,8 @@ nav ul li a {
 .blog-post figcaption {
     text-align: center;
 }
+
+
 
 /* Table styles */
 table {
@@ -115,35 +133,36 @@ form button:hover {
 }
 
 /* Contact Page Styles */
-.contact-page textarea {
-    font-size: 0.8rem;
-    letter-spacing: 1px;
-    padding: 10px;
-    max-width: 100%;
-    line-height: 1.5;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
+.contact-page label {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: block;
+    padding-bottom: 10px;
 }
 
-.contact-page label {
-    margin-bottom: 1em;
+.contact-page button {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    border-bottom:1px solid #ccc;
     padding-bottom: 10px;
 }
 
 
 /* About Page Styles */
+.about-page main {
+    margin: 30px;
+}
 .about-page img {
     max-width: 60%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 10px double #df5c65;
+    border: 10px double #1bb16ba7;
     padding: 5px;
-    box-shadow: 5px 5px 15px rgba(104, 23, 203, 0.3);
+    box-shadow: 5px 5px 15px rgba(104, 23, 203, 0.4);
     border-radius: 5px;
     transition: transform 0.2s ease;
 }
