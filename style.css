@@ -47,7 +47,7 @@ nav ul li a {
 
 #main-navbar {
     background-color: #FFB6C1;
-    color: white;
+    color: black;
     padding: 10px;
     text-align: center;
     font-size: 18px;
@@ -56,7 +56,7 @@ nav ul li a {
 
 #main-navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 5px 10px;
 }
 
@@ -179,6 +179,15 @@ form button:hover {
 /* About Page Styles */
 .about-page main {
     margin: 30px;
+}
+
+.about-page h2 {
+    color: #FFFFFF;
+    background-color: #f8a6b2db;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .about-page img {
