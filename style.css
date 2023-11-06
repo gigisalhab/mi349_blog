@@ -154,13 +154,14 @@ form button:hover {
 .about-page main {
     margin: 30px;
 }
+
 .about-page img {
     max-width: 60%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 10px double #1bb16ba7;
+    border: 10px solid #ffffff;
     padding: 5px;
     box-shadow: 5px 5px 15px rgba(104, 23, 203, 0.4);
     border-radius: 5px;
