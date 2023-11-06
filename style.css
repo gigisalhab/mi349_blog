@@ -24,6 +24,11 @@ footer {
     padding: 20px;
 }
 
+footer a[target="_blank"] {
+    color: #FFB6C1;
+    text-decoration: underline;
+}
+
 nav ul {
     padding: 0;
     list-style: none;
@@ -38,6 +43,26 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #100d0f;
+}
+
+#main-navbar {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#main-navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+#main-navbar ul li a:hover {
+    background-color: #FFA1B3;
+    border-radius: 5px;
 }
 
 /* Main content and sidebar styles */
@@ -131,6 +156,7 @@ form button {
 form button:hover {
     background-color: #FFA1B3;
 }
+
 
 /* Contact Page Styles */
 .contact-page label {
