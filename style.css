@@ -128,8 +128,11 @@ form button:hover {
 
 .contact-page label {
     margin-bottom: 10px;
-    text-indent: 2em;
+    display: block;
+    border-bottom:1px solid #ccc;
+    padding-bottom:10px;
 }
+
 
 /* About Page Styles */
 .about-page img {
