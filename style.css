@@ -11,7 +11,7 @@ body {
 header {
     font-family: 'Dancing Script', cursive;
     font-size: 18px;
-    background-color: #ffffff;
+    background-color: #FFB6C1;
     padding: 20px;
     text-align: center;
     position: sticky;
@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 #main-navbar {
-    background-color: #FFB6C1;
+    background-color: #ffffff;
     color: black;
     padding: 10px;
     text-align: center;
