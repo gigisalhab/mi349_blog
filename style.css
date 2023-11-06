@@ -10,7 +10,7 @@ body {
 
 header {
     font-family: 'Dancing Script', cursive;
-    font-size: 17px;
+    font-size: 18px;
     background-color: #FFB6C1;
     padding: 20px;
     text-align: center;
@@ -65,7 +65,7 @@ nav ul li a {
     border-radius: 5px;
 }
 
-/* Main content and sidebar styles */
+/* Main content and nav  */
 .main-container {
     display: flex;
     margin-top: 20px;
